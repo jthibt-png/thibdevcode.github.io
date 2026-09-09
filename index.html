@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thibaut JOUAN | Développeur Web</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: #ccc;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #222;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #666;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #222;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 80px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            nav a {
+                margin: 0 5px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Thibaut JOUAN</h1>
+        <p>Étudiant & Développeur Web</p>
+        <p>En reconversion professionnelle</p>
+    </header>
+
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+
+        <div class="card">
+            <p>
+                Anciennement cuisinier, j'ai choisi de me reconvertir
+                dans le développement web.
+            </p>
+
+            <p>
+                Je suis actuellement étudiant et je développe mes
+                compétences en programmation à travers différents
+                projets personnels.
+            </p>
+
+            <p>
+                Mon expérience dans la cuisine m'a appris la rigueur,
+                l'organisation, le travail en équipe et la capacité
+                à garder mon calme face aux problèmes.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Mes compétences</h2>
+
+        <div class="card">
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">Ruby</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mes projets</h2>
+
+        <div class="card">
+            <h3>🧮 Calculatrice Python</h3>
+
+            <p>
+                Création d'une calculatrice en Python permettant
+                d'effectuer des opérations mathématiques.
+            </p>
+
+            <p>
+                <strong>Technologie :</strong> Python
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚀 D'autres projets à venir</h3>
+
+            <p>
+                Cette section sera complétée au fur et à mesure
+                de mon apprentissage et de la réalisation de
+                nouveaux projets.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="card">
+            <p>
+                Vous pouvez me contacter pour échanger autour
+                du développement web et de mes projets.
+            </p>
+
+            <p>
+                GitHub :
+                <a href="https://github.com/thibdevcode">
+                    github.com/thibdevcode
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Thibaut JOUAN</p>
+    </footer>
+
+</body>
+</html>
